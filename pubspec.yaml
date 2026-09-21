@@ -1,0 +1,12 @@
+name: fl_drum_pad
+description: MIDI Controller
+publish_to: 'none'
+version: 1.0.0+1
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_midi_command: ^0.4.12
+flutter:
+  uses-material-design: true
